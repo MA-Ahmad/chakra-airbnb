@@ -22,7 +22,6 @@ const Header = () => {
           >
             AirBnb
           </Box>
-          {/* <span class="sr-only">AirBnb</span> */}
           <svg
             viewBox="0 0 1000 1000"
             role="presentation"
@@ -40,26 +39,26 @@ const Header = () => {
           </svg>
         </Heading>
       </Link>
-      <Box margin="0 auto" maxW="64rem" py={["1rem", "1rem", "1rem", "8rem"]}>
+      <Box margin="0 auto" maxW="64rem" py={{ base: "1rem", lg: "8rem" }}>
         <Heading
           as="h2"
-          fontSize={["2.25rem", "2.25rem", "2.25rem", "3rem"]}
+          fontSize={{ base: "2.25rem", lg: "3rem" }}
           mb="4"
         >
           Book a trip. Host travels. All on Airbnb.
         </Heading>
         <Flex
           justify="start"
-          flexDirection={["column", "column", "column", "row"]}
+          flexDirection={{ base: "column", lg: "row" }}
           align-items={"center"}
           maxWidth="42rem"
           wrap
-          marginX={["auto", "auto", "auto", "0"]}
+          marginX={{ base: "auto", lg: "0" }}
         >
           <Box
-            pr={[0, 0, 0, 5]}
-            width={["100%", "100%", "100%", "50%"]}
-            mb={["1rem", "1rem", "1rem", "0"]}
+            pr={{ base: 0, lg: 5 }}
+            width={{ base: "100%", lg: "50%" }}
+            mb={{ base: "1rem", lg: "0" }}
           >
             <Text mb="0.5rem">Find places to stay and things to do</Text>
             <Button
@@ -76,7 +75,10 @@ const Header = () => {
               Explore
             </Button>
           </Box>
-          <Box pl={[0, 0, 0, 5]} width={["100%", "100%", "100%", "50%"]}>
+          <Box
+            pl={{ base: 0, lg: 5 }}
+            width={{ base: "100%", lg: "50%" }}
+          >
             <Text mb="0.5rem">Earn money from your extra space</Text>
             <Button
               as={Link}
