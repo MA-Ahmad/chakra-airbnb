@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <Box
       position="relative"
-      bgImage="url('/airbnb-home.jpg')"
+      bgImage="url('/images/airbnb-home.jpg')"
       bgPosition="center"
       bgRepeat="no-repeat"
       bgSize="cover"
