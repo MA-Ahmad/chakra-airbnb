@@ -11,7 +11,7 @@ const Header = () => {
       p={6}
     >
       <Link to="/">
-        <Heading as="h1" size="4xl" isTruncated>
+        <Heading as="h1" size="4xl">
           <Box
             as="span"
             height="1px"
