@@ -16,8 +16,8 @@ const Header = () => {
             as="span"
             height="1px"
             width="1px"
-            clip="rect(1px, 1px, 1px, 1px)"
-            position="absolute !important"
+            // clip="rect(1px, 1px, 1px, 1px)"
+            position="absolute"
             overflow="hidden"
           >
             AirBnb
@@ -53,7 +53,6 @@ const Header = () => {
           flexDirection={{ base: "column", lg: "row" }}
           align-items={"center"}
           maxWidth="42rem"
-          wrap
           marginX={{ base: "auto", lg: "0" }}
         >
           <Box

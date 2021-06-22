@@ -59,7 +59,6 @@ const Reviews = () => {
       <Heading
         as="h3"
         size="lg"
-        mb="4"
         fontWeight="bold"
         textAlign="left"
         mb={{ base: "4", lg: "2" }}
@@ -68,7 +67,6 @@ const Reviews = () => {
       </Heading>
       <Flex alignItems={{ base: "start", lg: "center" }}>
         <svg
-          class="w-4 h-4 flex-shrink-0"
           viewBox="0 0 24 24"
           role="presentation"
           aria-hidden="true"
