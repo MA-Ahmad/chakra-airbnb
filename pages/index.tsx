@@ -35,7 +35,9 @@ export default function Home() {
               pr={{ lg: "2" }}
               mb={{ base: "4", lg: "0" }}
             >
-              <FormLabel>Where</FormLabel>
+              <FormLabel fontSize="0.75rem" fontWeight="bold">
+                Where
+              </FormLabel>
               <Input placeholder="Anywhere" />
             </FormControl>
             <FormControl
@@ -44,7 +46,9 @@ export default function Home() {
               pr={{ lg: "2" }}
               mb={{ base: "4", lg: "0" }}
             >
-              <FormLabel>CHECK-IN - CHECKOUT</FormLabel>
+              <FormLabel fontSize="0.75rem" fontWeight="bold">
+                CHECK-IN - CHECKOUT
+              </FormLabel>
               <Input placeholder="mm/dd/yyyy - mm/dd/yyyy" />
             </FormControl>
             <FormControl
@@ -53,7 +57,9 @@ export default function Home() {
               pr={{ lg: "2" }}
               mb={{ base: "4", lg: "0" }}
             >
-              <FormLabel>GUESTS</FormLabel>
+              <FormLabel fontSize="0.75rem" fontWeight="bold">
+                GUESTS
+              </FormLabel>
               <Select>
                 <option value="1 guest">1 guest</option>
                 <option value="2 guest">2 guests</option>
