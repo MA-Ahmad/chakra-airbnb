@@ -7,9 +7,7 @@ function Layout(props) {
     <Fragment>
       <Header />
       <Box textAlign="center" fontSize="xl" w={"100%"}>
-        <Box pt={10} pb={10}>
-          {props.children}
-        </Box>
+        {props.children}
       </Box>
     </Fragment>
   );
