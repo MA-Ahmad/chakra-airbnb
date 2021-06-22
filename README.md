@@ -1,5 +1,3 @@
-Airbnb home page built by using Nextjs and ChakraUI.
-
 ## Overview
 
 This application is built using the following technologies:
