@@ -44,6 +44,7 @@ const Header = () => {
           as="h2"
           fontSize={{ base: "2.25rem", lg: "3rem" }}
           mb="4"
+          color="#fff"
         >
           Book a trip. Host travels. All on Airbnb.
         </Heading>
@@ -60,35 +61,36 @@ const Header = () => {
             width={{ base: "100%", lg: "50%" }}
             mb={{ base: "1rem", lg: "0" }}
           >
-            <Text mb="0.5rem">Find places to stay and things to do</Text>
+            <Text mb="0.5rem" color="#fff">
+              Find places to stay and things to do
+            </Text>
             <Button
               as={Link}
-              bg="white"
-              color="black"
+              bg="#fff"
+              color="#000000"
               fontWeight="bold"
               px={"2.5rem"}
               py={"1.5rem"}
               width="full"
-              border="2px solid white"
+              border="2px solid #fff"
               _hover={{ bg: "gray.300", textDecoration: "none" }}
             >
               Explore
             </Button>
           </Box>
-          <Box
-            pl={{ base: 0, lg: 5 }}
-            width={{ base: "100%", lg: "50%" }}
-          >
-            <Text mb="0.5rem">Earn money from your extra space</Text>
+          <Box pl={{ base: 0, lg: 5 }} width={{ base: "100%", lg: "50%" }}>
+            <Text mb="0.5rem" color="#fff">
+              Earn money from your extra space
+            </Text>
             <Button
               as={Link}
               bg="transparent"
-              color="white"
+              color="#fff"
               fontWeight="bold"
               px={"2.5rem"}
               py={"1.5rem"}
               width="full"
-              border="2px solid white"
+              border="2px solid #fff"
               _hover={{ bg: "gray.800", textDecoration: "none" }}
             >
               Host
