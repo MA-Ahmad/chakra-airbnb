@@ -11,7 +11,13 @@ import {
   Text
 } from "@chakra-ui/react";
 
-const LinkItem = ({ text, isTag = false, tagText }) => {
+type LinkItemProps = {
+    text?: string;
+    isTag?: boolean;
+    tagText?: string;
+}
+
+const LinkItem = ({ text, isTag = false, tagText }: LinkItemProps) => {
   return (
     <ListItem display="flex">
       <Link fontWeight="600" href="#" color="rgba(113, 128, 150, 1)">
