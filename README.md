@@ -33,4 +33,4 @@ yarn dev
 
 The above command will start the application on [http://localhost:3000/](http://localhost:3000).
 
-![Home Screen](/public/images/screens/home.png)
+![Home Screen](/public/images/home.png)
