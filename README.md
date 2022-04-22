@@ -6,6 +6,9 @@ This application is built using the following technologies:
 - [Nextjs](https://nextjs.org/)
 - [Chakra UI](https://chakra-ui.com)
 
+## View components and Copy code of your favourite components
+[TemplatesKart website](https://templateskart.com/projects/airbnb-clone)
+
 ## Requirements
 
 1. [Node.js](https://nodejs.org/)
